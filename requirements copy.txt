@@ -1,0 +1,8 @@
+# Required to make HTTP requests to the Notion API
+requests>=2.28.0
+
+# Required for using the OpenAI API (version 1.0.0+ has a new interface)
+openai>=1.0.0
+
+# Required to securely load environment variables from the .env file
+python-dotenv>=1.0.0

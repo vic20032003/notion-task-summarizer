@@ -1,0 +1,105 @@
+Last login: Thu May 15 19:17:47 on ttys000
+mr.vic@Victors-MacBook-Air ~ % cd "/Users/mr.vic/Desktop/Echo Notion Open"
+
+mr.vic@Victors-MacBook-Air Echo Notion Open % git init
+git remote add origin https://github.com/YOUR_USERNAME/notion-task-summarizer.git
+
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/mr.vic/Desktop/Echo Notion Open/.git/
+mr.vic@Victors-MacBook-Air Echo Notion Open % git init
+git remote add origin https://github.com/vic20032003/notion-task-summarizer.git
+Reinitialized existing Git repository in /Users/mr.vic/Desktop/Echo Notion Open/.git/
+error: remote origin already exists.
+mr.vic@Victors-MacBook-Air Echo Notion Open % git remote set-url origin https://github.com/vic20032003/notion-task-summarizer.git
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main
+
+[master (root-commit) fb81c2c] Initial commit
+ 8 files changed, 160 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .env
+ create mode 100644 .env.save
+ create mode 100644 .gitignore.txt
+ create mode 100644 EC.py
+ create mode 100644 env example.py
+ create mode 100644 env.py
+ create mode 100644 requirements copy.txt
+Username for 'https://github.com': vic20032003
+Password for 'https://vic20032003@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/vic20032003/notion-task-summarizer.git/'
+mr.vic@Victors-MacBook-Air Echo Notion Open % vic20032003
+zsh: command not found: vic20032003
+mr.vic@Victors-MacBook-Air Echo Notion Open % vic.bir@hotmail.com
+zsh: command not found: vic.bir@hotmail.com
+mr.vic@Victors-MacBook-Air Echo Notion Open % git remote set-url origin https://<YOUR_USERNAME>:<YOUR_PAT>@github.com/<YOUR_USERNAME>/notion-task-summarizer.git 
+git push -u origin main
+
+zsh: no such file or directory: YOUR_USERNAME
+Username for 'https://github.com': git remote set-url origin https://vic20032003:ghp_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@github.com/vic20032003/notion-task-summarizer.git
+git push -u origin mainPassword for 'https://git remote set-url origin https://vic20032003:ghp_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@github.com/vic20032003/notion-task-summarizer.git@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/vic20032003/notion-task-summarizer.git/'
+mr.vic@Victors-MacBook-Air Echo Notion Open % git remote set-url origin https://vic20032003:ghp_11AXUAJNQ09cMyAuxSWIj7_LwGBfIgDWJX8V341Y6h60F5TWiIG7LFF7q2hZzbKz66PZ2PEH6IlR7xC1zD@github.com/vic20032003/notion-task-summarizer.git
+
+mr.vic@Victors-MacBook-Air Echo Notion Open % git push -u origin main
+
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/vic20032003/notion-task-summarizer.git/'
+mr.vic@Victors-MacBook-Air Echo Notion Open % gh auth login
+
+zsh: command not found: gh
+mr.vic@Victors-MacBook-Air Echo Notion Open % brew install gh
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+codex           e2b             kubectl-ai      pieces-cli      tmuxai
+cookcli         hellwal         nelm            pixd
+cpdf            jjui            nerdlog         smenu
+==> New Casks
+aqua-voice          feather             font-fzxiheii-z08   status
+billy-frontier      foks                hedy                void
+blankie             font-fzhei-b01      nao
+
+You have 8 outdated formulae and 1 outdated cask installed.
+
+==> Downloading https://ghcr.io/v2/homebrew/core/gh/manifests/2.72.0
+######################################################################### 100.0%
+==> Fetching gh
+==> Downloading https://ghcr.io/v2/homebrew/core/gh/blobs/sha256:d410ae1b49862ac
+######################################################################### 100.0%
+==> Pouring gh--2.72.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/gh/2.72.0: 212 files, 36.3MB
+==> Running `brew cleanup gh`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+mr.vic@Victors-MacBook-Air Echo Notion Open % gh auth login
+
+? Where do you use GitHub? GitHub.com
+? What is your preferred protocol for Git operations on this host? HTTPS
+? Authenticate Git with your GitHub credentials? Yes
+? How would you like to authenticate GitHub CLI?  [Use arrows to move, type to filter]
+> Login with a web browser
+  Paste an authentication token
+
